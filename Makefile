@@ -7,6 +7,7 @@ EXEC = tree
 test: $(OBJ)
 	$(CC) $(CFLAGS) $(OBJ) -o $(EXEC)
 	./$(EXEC)
+	$(MAKE) clean
 
 clean:
 	rm -f $(OBJ) $(EXEC)
