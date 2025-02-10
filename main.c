@@ -1,6 +1,8 @@
 #include <stdio.h>
 
+#include "traversal.h"
+
 int main(void) {
-  printf("Test\n");
+  traverse_directory(".");
   return 0;
 }
